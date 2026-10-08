@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-pine: #1E6B47;
+  --color-pine-light: #2E7D5B;
+  --color-berry: #059669;
+  --color-berry-dark: #047857;
+  --color-sky: #4FB286;
+  --color-sky-dark: #378C66;
+  --color-lav: #84CC16;
+  --color-lav-dark: #65A30D;
+  --color-sand: #F0F7F2;
+  --color-parchment: #F9FBFA;
+  --color-charcoal: #1E2923;
+  --color-muted: #52665A;
+  --color-line: #E2ECE5;
+}
+
+:root {
+  --bg: #F9FBFA;
+  --bg-alt: #F0F7F2;
+  --ink: #1E2923;
+  --ink-soft: #52665A;
+  --line: #E2ECE5;
+  --pine: #1E6B47;
+  --berry: #059669;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg);
+  color: var(--ink);
+}
+
+.font-serif {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom smooth scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #F4F9F5;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #C2DEC9;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #15803D;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #C2DEC9 #F4F9F5;
+}
+

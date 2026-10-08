@@ -1,0 +1,8 @@
+{
+  "name": "Remix Meridian \u0026 Bloom — Pharmacy, Cosmetics \u0026 Seller Studio",
+  "description": "A luxury pharmacy, apothecary, and clean cosmetics storefront with an integrated merchant studio to sell and manage products.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
